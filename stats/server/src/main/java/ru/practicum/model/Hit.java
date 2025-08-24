@@ -3,7 +3,6 @@ package ru.practicum.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor; // ДОБАВЛЕНО: импорт
 
 import java.time.LocalDateTime;
 
@@ -11,7 +10,6 @@ import java.time.LocalDateTime;
 @Table(name = "statistics")
 @Entity
 @AllArgsConstructor
-@NoArgsConstructor  // ДОБАВЛЕНО: аннотация для JPA
 public class Hit {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
