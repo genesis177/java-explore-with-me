@@ -1,7 +1,6 @@
 package ru.practicum.mapper;
 
-
-import ru.practicum.dto.HitDto;
+import ru.practicum.HitDto;
 import ru.practicum.model.Hit;
 
 public class HitMapper {
